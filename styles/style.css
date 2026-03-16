@@ -57,8 +57,14 @@ nav a:hover {
 	color: var(--coffee);
 	text-decoration: none;
 	transition: all 0.3s ease;
+	text-align: center;
+	margin: 32px;
 }
 
 .pageGallery a:hover {
 	transform: scale(1.1);
+}
+
+.pageGallery a img {
+	width: 40%;
 }
